@@ -1,0 +1,74 @@
+.top{ 
+    padding: 5% 15% 10%;
+    font-family: sans-serif;
+background-color: rgb(247, 247, 243);
+/* text-align: left; */
+}
+.profile_image{
+    position: absolute;
+    right: 70px;
+    top: 90px;
+    
+}
+.Education{
+    padding: 5% 15%;
+text-align: center;
+}
+H1{
+    font-family: 'Uchen', serif;
+   text-shadow:  2px 2px lightblue; 
+   padding: 2% 0;
+}
+.corsel_size{
+    padding: 0 10%;
+    width: 100%;
+    /* text-align: center; */
+    margin: auto;
+    padding-bottom: 5%;
+}
+.corsel-paragraph,h3{
+    font-family: "merriweather";
+    color: black;
+}
+.link{
+    /* text-decoration: none; */
+    text-decoration: none;
+}
+#footer{
+    padding: 5% 3% 2%;
+    text-align: center;
+    background-color:rgb(247, 247, 243);
+}
+.social-icon {
+    padding: 1%;
+    color: green;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: "Montserrat-bold";
+    padding: ;
+}
+.email{
+    font-size: small;
+}
+hr{
+    border: dotted;
+    border-bottom: none;
+    size: 50px;
+padding: 3%;
+
+}
+.student{
+    text-shadow: 1px 1px lightblue; 
+}
+@media ( max-width:800px){
+    .top{
+        text-align: center;
+    }
+    .profile_image{
+        padding-top: 2%;
+        position: static;
+        text-align: center;
+    }
+}
